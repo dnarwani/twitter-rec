@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block login_block %}
+
+    {% if is_authenticated %}
+    <div class="nav-collapse">
+        <ul class="nav pull-right">
+            <li class="navbar-text">Welcome, {{ name }}!</li>
+        </ul>
+    </div>
+    {% endif %}
+
+{% endblock %}
+
+{% block body_block %}
+
+<div class="container">
+
+    <form class="form-signin span4" action="" method="post">{% csrf_token %}
+        <button type="submit" class="btn btn-primary btn-lg">Recommend Music</button>
+        <br/>
+
+    </form>
+
+</div>
+
+
+{% endblock %}

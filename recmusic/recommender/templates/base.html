@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static%}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="{% static 'css/bootstrap-fluid-adj.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" media="screen">
+    <link href="{% static 'css/bootstrap-social.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/sticky-footer.css' %}" rel="stylesheet">
+    <title>Music recommendation with Twitter</title>
+
+    <script src="{% static 'js/jquery-1.11.3.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-65911167-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+
+</head>
+<body>
+
+     <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <div class="navbar-header shift_left">
+                    <a class="navbar-brand" href="http://music-recommender.elasticbeanstalk.com/">Music Recommender</a>
+                 </div>
+                 {% block login_block %}
+                 {% endblock %}
+            </div>
+        </div>
+    </div>
+     <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span9">
+                {% block body_block %}
+                {% endblock %}
+            </div>
+        <!--/.fluid-container-->
+        </div>
+    </div>
+    <hr>
+
+
+</body>
+</html>

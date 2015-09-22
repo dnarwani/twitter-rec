@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block body_block %}
+
+<div class="container">
+      <p></p>
+      <p>
+          This website is a research project in collaboration with the University of Bristol.
+          It's main purpose is to recommend independent music artists to you depending on your music taste.
+          I analyze your music taste by looking at any artists you mention in your tweets, as well as your friends tweets.
+          Don't worry if you have never posted music on Twitter, you are still a valid candidate.
+          The goal of this research is to identify if the artists recommended to you match your music taste.
+          All you need to do is <b>like</b> or <b>dislike</b> the artist - this is located top right of each artist name.
+          Thanks for your participation.
+      </p>
+
+      <form class="form-signin span4" id="login_form" method="post" action="">{% csrf_token %}
+          <button type="submit" class="btn btn-primary btn-lg">Sign in with Twitter</button>
+      </form>
+
+</div>
+
+{% endblock %}
+
+

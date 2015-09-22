@@ -1,0 +1,63 @@
+[08/Jul/2015 12:38:55] DEBUG [boto:279] Using access key provided by client.
+[08/Jul/2015 12:38:55] DEBUG [boto:306] Using secret key provided by client.
+[08/Jul/2015 12:38:55] DEBUG [boto:651] path=/
+[08/Jul/2015 12:38:55] DEBUG [boto:653] auth_path=/elasticbeanstalk-us-west-2-501394068089/
+[08/Jul/2015 12:38:55] DEBUG [boto:897] Method: HEAD
+[08/Jul/2015 12:38:55] DEBUG [boto:898] Path: /
+[08/Jul/2015 12:38:55] DEBUG [boto:899] Data: 
+[08/Jul/2015 12:38:55] DEBUG [boto:900] Headers: {}
+[08/Jul/2015 12:38:55] DEBUG [boto:901] Host: elasticbeanstalk-us-west-2-501394068089.s3.amazonaws.com
+[08/Jul/2015 12:38:55] DEBUG [boto:902] Port: 443
+[08/Jul/2015 12:38:55] DEBUG [boto:903] Params: {}
+[08/Jul/2015 12:38:55] DEBUG [boto:745] establishing HTTPS connection: host=elasticbeanstalk-us-west-2-501394068089.s3.amazonaws.com, kwargs={'port': 443, 'timeout': 70}
+[08/Jul/2015 12:38:55] DEBUG [boto:926] Token: None
+[08/Jul/2015 12:38:55] DEBUG [boto:154] StringToSign:
+HEAD
+
+
+Wed, 08 Jul 2015 12:38:55 GMT
+/elasticbeanstalk-us-west-2-501394068089/
+[08/Jul/2015 12:38:55] DEBUG [boto:158] Signature:
+AWS AKIAI6F6HFFENFWSPN4Q:SGSqzYuvD+iYj1qPR2BvSV4pXSA=
+[08/Jul/2015 12:38:55] DEBUG [boto:936] Final headers: {'Date': 'Wed, 08 Jul 2015 12:38:55 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAI6F6HFFENFWSPN4Q:SGSqzYuvD+iYj1qPR2BvSV4pXSA=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.13.0-37-generic'}
+[08/Jul/2015 12:38:55] DEBUG [boto:945] Response headers: [('x-amz-bucket-region', 'us-west-2'), ('x-amz-id-2', 'mgyd48S6boLGbL+VPCCyy/ZWtEnR6ctzhfyd9GYGIB69VAFD0a5YKD00iOgYZ/II2sjlGw+9Vfg='), ('server', 'AmazonS3'), ('transfer-encoding', 'chunked'), ('x-amz-request-id', '44CA705A3987FD5A'), ('date', 'Wed, 08 Jul 2015 12:38:56 GMT'), ('content-type', 'application/xml')]
+[08/Jul/2015 12:38:55] DEBUG [boto:651] path=/files/data/artists.dat
+[08/Jul/2015 12:38:55] DEBUG [boto:653] auth_path=/elasticbeanstalk-us-west-2-501394068089/files/data/artists.dat
+[08/Jul/2015 12:38:55] DEBUG [boto:897] Method: HEAD
+[08/Jul/2015 12:38:55] DEBUG [boto:898] Path: /files/data/artists.dat
+[08/Jul/2015 12:38:55] DEBUG [boto:899] Data: 
+[08/Jul/2015 12:38:55] DEBUG [boto:900] Headers: {}
+[08/Jul/2015 12:38:55] DEBUG [boto:901] Host: elasticbeanstalk-us-west-2-501394068089.s3.amazonaws.com
+[08/Jul/2015 12:38:55] DEBUG [boto:902] Port: 443
+[08/Jul/2015 12:38:55] DEBUG [boto:903] Params: {}
+[08/Jul/2015 12:38:55] DEBUG [boto:926] Token: None
+[08/Jul/2015 12:38:55] DEBUG [boto:154] StringToSign:
+HEAD
+
+
+Wed, 08 Jul 2015 12:38:55 GMT
+/elasticbeanstalk-us-west-2-501394068089/files/data/artists.dat
+[08/Jul/2015 12:38:55] DEBUG [boto:158] Signature:
+AWS AKIAI6F6HFFENFWSPN4Q:CmS2Y5xPvA9+pcwAQo0LaoRYkBI=
+[08/Jul/2015 12:38:55] DEBUG [boto:936] Final headers: {'Date': 'Wed, 08 Jul 2015 12:38:55 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAI6F6HFFENFWSPN4Q:CmS2Y5xPvA9+pcwAQo0LaoRYkBI=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.13.0-37-generic'}
+[08/Jul/2015 12:38:55] DEBUG [boto:945] Response headers: [('content-length', '1263648'), ('x-amz-id-2', 'ED5+RvczCS3SZOrS16lM7EKtt7TxP+FnrRGjpZw0PiGTbyoEWHGsL5Y5aqafNyvhncCg1gYmC5o='), ('accept-ranges', 'bytes'), ('server', 'AmazonS3'), ('last-modified', 'Tue, 07 Jul 2015 16:12:32 GMT'), ('x-amz-request-id', '2544C65F96C3519F'), ('etag', '"3973c0d96578b42bbfbd991b7f005414"'), ('date', 'Wed, 08 Jul 2015 12:38:57 GMT'), ('content-type', 'application/octet-stream')]
+[08/Jul/2015 12:38:57] DEBUG [boto:651] path=/files/data/sparse_matrix.p
+[08/Jul/2015 12:38:57] DEBUG [boto:653] auth_path=/elasticbeanstalk-us-west-2-501394068089/files/data/sparse_matrix.p
+[08/Jul/2015 12:38:57] DEBUG [boto:897] Method: HEAD
+[08/Jul/2015 12:38:57] DEBUG [boto:898] Path: /files/data/sparse_matrix.p
+[08/Jul/2015 12:38:57] DEBUG [boto:899] Data: 
+[08/Jul/2015 12:38:57] DEBUG [boto:900] Headers: {}
+[08/Jul/2015 12:38:57] DEBUG [boto:901] Host: elasticbeanstalk-us-west-2-501394068089.s3.amazonaws.com
+[08/Jul/2015 12:38:57] DEBUG [boto:902] Port: 443
+[08/Jul/2015 12:38:57] DEBUG [boto:903] Params: {}
+[08/Jul/2015 12:38:57] DEBUG [boto:926] Token: None
+[08/Jul/2015 12:38:57] DEBUG [boto:154] StringToSign:
+HEAD
+
+
+Wed, 08 Jul 2015 12:38:57 GMT
+/elasticbeanstalk-us-west-2-501394068089/files/data/sparse_matrix.p
+[08/Jul/2015 12:38:57] DEBUG [boto:158] Signature:
+AWS AKIAI6F6HFFENFWSPN4Q:VqWsaYyNoHkJR5nWnDCzswIJgfg=
+[08/Jul/2015 12:38:57] DEBUG [boto:936] Final headers: {'Date': 'Wed, 08 Jul 2015 12:38:57 GMT', 'Content-Length': '0', 'Authorization': u'AWS AKIAI6F6HFFENFWSPN4Q:VqWsaYyNoHkJR5nWnDCzswIJgfg=', 'User-Agent': 'Boto/2.38.0 Python/2.7.6 Linux/3.13.0-37-generic'}
+[08/Jul/2015 12:38:57] DEBUG [boto:945] Response headers: [('content-length', '117940962'), ('x-amz-id-2', 'p++kmBICIWNFnDkfYsWYIXsKnK9dzkfqe/1bjofR367RBKdGhrM/dIuS23IKNjA3JN9n/K4pKz4='), ('accept-ranges', 'bytes'), ('server', 'AmazonS3'), ('last-modified', 'Tue, 07 Jul 2015 16:13:04 GMT'), ('x-amz-request-id', '444394FD8FB2FBBE'), ('etag', '"6753be0bd9001fbdd601feca64bb8474-2"'), ('date', 'Wed, 08 Jul 2015 12:38:59 GMT'), ('content-type', 'application/octet-stream')]
